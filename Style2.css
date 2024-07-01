@@ -1,0 +1,82 @@
+h1 {
+    color:gold;
+    font-size: 6rem;
+    text-align: center;
+    align-content: center;
+    font-family: "Caveat";
+    }
+    
+    body {
+      text-align: center;
+    background-color: black;
+      font-family: "Oleo Script";
+    }
+    
+    #bg-image {
+    background-image: url("https://images.pexels.com/photos/1695052/pexels-photo-1695052.jpeg");
+     background-position: center;
+      background-size: cover ;
+      background-repeat: no-repeat;
+     opacity:20% ;
+      position: absolute;
+      inset: 0;
+    z-index: -2;
+    }
+    #bg {
+    background-image: url("https://images.pexels.com/photos/312418/pexels-photo-312418.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1");
+     background-position: center;
+      background-size: 18rem ;
+      background-repeat: no-repeat;
+     opacity:100% ;
+      position: absolute;
+      inset: 0;
+    z-index: -1;
+    border-radius: 1rem;
+    padding: rem;
+  
+    }
+
+    
+    
+    p {
+      color: white;
+      font-size: 4rem;
+      line-height: 1rem;
+    }
+    
+    a{
+      align-items: center;
+      align-content: center;
+      font-size: 3rem;
+    background-color: brown;
+    text-decoration: none;
+    color: gold;
+    padding: 1rem;
+    border-radius: 1rem;
+    line-height: 28cm;
+    transition: background-color 300ms;
+    }
+    a:hover{
+      background-color: darkgoldenrod;
+      color: brown;
+    }
+    
+    @media (width < 40rem) {
+      html {
+        font-size: 70%;
+      }
+    }
+    
+    #b {
+      background: url("data:image/jpeg;base64,/9j/4AAQSkZJRgABAQAAAQABAAD/2wCEAAkGBwgHBgkIBwgKCgkLDRYPDQwMDRsUFRAWIB0iIiAdHx8kKDQsJCYxJx8fLT0tMTU3Ojo6Iys/RD84QzQ5OjcBCgoKDQwNGg8PGjclHyU3Nzc3Nzc3Nzc3Nzc3Nzc3Nzc3Nzc3Nzc3Nzc3Nzc3Nzc3Nzc3Nzc3Nzc3Nzc3Nzc3N//AABEIALcAwwMBIgACEQEDEQH/xAAXAAEBAQEAAAAAAAAAAAAAAAAAAQIG/8QAGRABAQEAAwAAAAAAAAAAAAAAABEBMUHw/8QAGAEBAQEBAQAAAAAAAAAAAAAAAAECBwX/xAAVEQEBAAAAAAAAAAAAAAAAAAAAAf/aAAwDAQACEQMRAD8A79UHJnvqIogG6YAqAKi+5RbAAQAQUAARUAAFEAAEVQAG4AjIqKIAAAgKCAqAKAAAAIsAQAVDcVAEiiiCoK2qKjICALAEAACAAAAioAKgoKAiLoCCoKgAAArSoDKp2AigUAAAAAAARQRQFEVAAAEVN0BNXCCoLAFAEUAACCIKAAAAAAAAgqoAAACKgCAKogDYgIogCiAKIogIAoAIqKAICgAAACaqAIqCgANACKgAAoIAAKAgKCAAqAAAAAAgCiAACA2AIAAAAQBAAUAAAEABQABAAABUAARUVWwEZAAAEAAAAABQBAVAAAAAFEUBAAEVFVsRUZBAFQUEAAVAFQAAAAAAAAQUAABFUCgNGIqIAAAAAaAAAAAAAAAIoCAAAKIIoAA1VARAAKUBSlAQKCBSgoFBAoCgUAKAAgCiAEAFV//Z");
+      background-position: center;
+      background-size: 30rem ;
+      background-repeat: no-repeat;
+     opacity:100% ;
+      position: absolute;
+      inset: 0;
+    z-index: -2;
+    
+    }
+
+    
